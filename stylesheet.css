@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.header-search,
+.header-filter {
+    width: 300px;
+}
+
+.header-search__title {
+    display: inline-block;
+    margin: 0;
+    margin-right: 15px;
+}
+
+.header-search__input {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    height: 36px;
+    box-sizing: border-box;
+}
+
+.header-search__input:focus {
+    outline: 0;
+}
